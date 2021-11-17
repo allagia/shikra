@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Shikra</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <include class="visually-hidden" src="build/img/sprite_auto.svg"></include>
+
+  <header class="header">
+    <div class="header__wrap">
+
+      <button class="header__btn btn" type="button" aria-label="open menu"></button>
+
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item active">
+            <a class="header__nav-link" href="#">
+              <span class="header__nav-icon">
+                <svg width="24px" height="24px">
+                  <use xlink:href="#icon-home"></use>
+                </svg>
+              </span>
+              Dashboard
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">
+              <span class="header__nav-icon">
+                <svg width="24px" height="24px">
+                  <use xlink:href="#icon-calendar"></use>
+                </svg>
+              </span>
+              Upcoming
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">
+              <span class="header__nav-icon">
+                <svg width="24px" height="24px">
+                  <use xlink:href="#icon-compass"></use>
+                </svg>
+              </span>
+              Explore
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">
+              <span class="header__nav-icon">
+                <svg width="24px" height="24px">
+                  <use xlink:href="#icon-person"></use>
+                </svg>
+              </span>
+              Profile
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">
+              <span class="header__nav-icon">
+                <svg width="24px" height="24px">
+                  <use xlink:href="#icon-settings"></use>
+                </svg>
+              </span>
+              Settings
+            </a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="#">
+              <span class="header__nav-icon">
+                <svg width="24px" height="24px">
+                  <use xlink:href="#icon-power"></use>
+                </svg>
+              </span>
+              Logout
+            </a>
+          </li>
+        </ul>
+    </div>
+
+
+  </header>
+
+  <main class="main">
+
+    <section class="intro">
+      <h1 class="intro__title">Shikra.</h1>
+      <div class="intro__search">
+        <input class="intro__input" type="email" placeholder="Search">
+        <button class="btn intro__btn" aria-label="open filter"></button>
+      </div>
+
+    </section>
+
+    <div class="sidebar">
+
+      <div class="sidebar__main-image">
+        <span class="sidebar__tag">Added Today</span>
+        <img class="sidebar__image" src="img/image@1x.jpg" srcset="img/image@2x.jpg" alt="25 Lakeland Terrace, Westland,
+          Michigan, USA">
+      </div>
+
+      <h2 class="sidebar__title">25 Lakeland Terrace, Westland, Michigan, USA</h2>
+
+      <div class="sidebar__owner-info">
+        <span class="sidebar__subtitle">Apartment</span>
+        <span class="sidebar__owner">by Robbin Johnson</span>
+        <svg width="24px" height="24px">
+          <use xlink:href="#icon-heart"></use>
+        </svg>
+      </div>
+
+      <div class="sidebar__links">
+        <ul class="sidebar__links-list">
+          <li class="sidebar__links-item"><a class="sidebar__links-link" href="#"></a></li>
+          <li class="sidebar__links-item"><a class="sidebar__links-link" href="#"></a></li>
+          <li class="sidebar__links-item"><a class="sidebar__links-link" href="#"></a></li>
+        </ul>
+        <span class="sidebar__price">$ 2,900.00</span>
+      </div>
+
+      <ul class="sidebar__info">
+        <li>Used property</li>
+        <li>4</li>
+        <li>170 m2</li>
+      </ul>
+
+      <iframe class="sedebar__map"
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d47207.41282619409!2d-83.40453788078736!3d42.31131607254181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s25%20Lakeland%20Terrace%2C%20Westland%2C%20Michigan%2C%20USA!5e0!3m2!1sru!2sru!4v1637156695967!5m2!1sru!2sru"
+        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      <div class="sidebar__images">
+        <h2 class="sidebar__title">Photos</h2>
+        <button class="sidebar__open-more" type="button" aria-label="open more"></button>
+      </div>
+
+      <ul class="sidebar__photo-list">
+        <li class="sidebar__photo-img"></li>
+        <li class="sidebar__photo-img"></li>
+        <li class="sidebar__photo-img"></li>
+        <li class="sidebar__photo-img"></li>
+        <li class="sidebar__photo-img"></li>
+        <li class="sidebar__photo-img"></li>
+      </ul>
+
+
+
+    </div>
+
+  </main>
+
+  <footer class="footer container">
+
+
+  </footer>
+
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+.btn {
+  @include button-reset;
+
+  transition: opacity $transition-props;
+  cursor: pointer;
+
+}

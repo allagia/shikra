@@ -1,0 +1,73 @@
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #F6F7FB;
+
+  padding: 22px 428px 30px 175px;
+
+  &__title {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  &__search {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 24px;
+      height: 24px;
+
+      left: 14px;
+      top: 15px;
+      background-image: url("../img/icon-search.svg");
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: center;
+    }
+  }
+
+  &__input {
+    width: 326px;
+    height: 52px;
+    padding: 0 47px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 24px 24px rgba(0, 0, 0, 0.02);
+    border-radius: 26px;
+    border: 1px solid transparent;
+
+    font-size: 15px;
+    color: #AFAFAF;
+
+    transition: border-color $transition-props;
+
+    &:hover {
+      border-color:#7987A5;
+    }
+  }
+
+  &__btn {
+    width: 52px;
+    height: 52px;
+    margin-left: 10px;
+
+    background-color: #F86549;
+    background-image: url("../img/tune.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    border-radius: 50%;
+
+    transition: opacity $transition-props;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
