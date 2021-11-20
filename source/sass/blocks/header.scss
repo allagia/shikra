@@ -1,17 +1,17 @@
 .header {
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
-  height: 100vh;
+  // height: 100vh;
 
-  overflow-y: scroll;
+  // overflow-y: scroll;
 
   &__wrap {
     display: flex;
     flex-direction: column;
 
-    height: 100vh;
-    min-height: 990px;
+    // height: 100vh;
+    // min-height: 990px;
   }
 
   &__btn {
